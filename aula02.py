@@ -34,3 +34,56 @@
 # resulNota1 = nota1 >= 6
 # resulNota2 = nota2 >= 6
 # print(resulNota1 and resulNota2)
+
+# preco = float(input("Digite o valor do produto: "))
+# preco -= (5/100)*preco
+# print(f"O valor do produto com desconto de 5% é {preco}")
+
+# num = float(input("Digite um número: "))
+# num *= 2
+# print(f"O dobro desse numero é {num}")
+
+# frase = input("Digite uma frase qualquer e um caractere especial: ")
+# caractere = "$"in frase
+# print(f"O caractere $ está na frase? {caractere}")
+
+# frase = input("Digite uma frase qualquer: ")
+# caractere = "amor"in frase
+# print(f"A palavra AMOR está na frase? {caractere}")
+
+# num = int(input("Digite um número: "))
+# if num % 2 == 0:
+#     print("Par")
+# else:
+#     print("Impar")
+    
+# nota = int(input("Digite a sua nota: "))
+# if nota >= 6:
+#     print("Aprovado")
+# else:
+#     print("Reprovado")
+
+# num = int(input("Digite um número: "))
+# if num % 2 == 0:
+#     print("Par")
+# else:
+#     print("Impar")
+# if num >= 0:
+#     print("Positivo")
+# else:
+#     print("Negativo")
+
+# usuario = input("Digite o nome de usuario: ")
+# senha = input("Digite a senha: ")
+# if usuario == "admin" and senha == "1234":
+#     print("Acesso liberado")
+# else:
+#     print("Usuáriou e/ou senha inválidos")
+
+# preco = float(input("Digite o preço do produto: "))
+# qtd = int(input("Digite a quantidade: "))
+# if qtd > 10:
+#     preco -= (10/100)*preco
+#     print(f"O valor com desconto é {preco}")
+# else:
+#     print("Não é possivel aplicar desconto para a quantidade informada")
