@@ -85,8 +85,9 @@
 #ATIVIDADE 11
 numero = int(input("Digite um número: "))
 while numero <= 0 and numero >= 11:
-    numero = int(input("Digite um número: "))
-print("Acesso Permitido")
+    numero = int(input("Digite um número: ")) 
+else:
+    print("Acesso Permitido")
 
 
 
