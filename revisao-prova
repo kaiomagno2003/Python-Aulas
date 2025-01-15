@@ -1,0 +1,15 @@
+senha = None
+senhaCorreta = "12345"
+tentativas = 0
+
+while senha != senhaCorreta:
+    senha = input("Digite a senha: ")
+    if senha != senhaCorreta:
+        print(f"Senha incorreta. Faltam {3 - tentativas} tentativas")
+        tentativas +=1
+    if tentativas >= 3:
+        for tentativa in range(tentativas):
+            print("Acesso Bloqueado")
+        break
+else:
+    print("Acesso permitido!")
