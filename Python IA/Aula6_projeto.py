@@ -1,5 +1,3 @@
-import os
-
 tarefas = {
     'nome': "Desenvolver projeto",
     'descricao': "Criar o projeto da aula 6",
@@ -7,9 +5,6 @@ tarefas = {
     'prioridade': "Urgente",
     'concluida': False
 }
-
-#def clear():
-#    os.system('cls')
 
 #def adicionar_tarefa():
     
